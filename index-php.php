@@ -11,9 +11,23 @@
     <main class="main-cont" id="app">
         <div class="img-cont">
             <div class="cards" v-for="card in cars">
-                    <h3>{{card.id}}</h3>
-                    <h4>{{card.casa}}</h4>
-                    <p>{{card.data}}</p>
+                    <h2>{{card.casa}} {{card.modello}}</h3>
+                    <ul>
+                        <li>Tipo: {{card.tipo}}</li>
+                        <li>Prezzo: {{card.prezzo}}</li>
+                        <li>Colore: {{card.colore}}</li>
+                        <li>Segmento: {{card.segmento}}</li>
+                        <li>Immatricolazione: {{card.immatricolazione}}</li>
+                        <li>Km: {{card.km}}</li>
+                        <li>Cavalli: {{card.cavalli}}</li>
+                        <li>Posti: {{card.posti}}</li>
+                        <li>Cambio: {{card.cambio}}</li>
+                        <li>Cilindrata: {{card.cilindrata}}</li>
+                        <li>Carburante: {{card.carburante}}</li>
+                        <li>Dotazioni: {{card.dotazioni}}</li>
+                        <li>Descrizione: {{card.descrizione}}</li>
+                    </ul>
+                   
             </div>
         </div>
     </main>
